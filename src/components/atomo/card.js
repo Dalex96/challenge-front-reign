@@ -45,7 +45,6 @@ function Card(props) {
     var favoritos = localStorage.getItem("fav") || "[]"
     favoritos = JSON.parse(favoritos)
     var posLista = favoritos.findIndex((e) => { return e.objectID === id; })
-      console.log(posLista)
     if (posLista > -1) {
       return (
         <img src={corazon} className="positionIconBtn" width="30"/>

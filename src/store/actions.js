@@ -19,7 +19,6 @@ export const ListNewsByTec = (dispatch, tec, page) => {
 export const ListNewsFavs = (dispatch) => {
 	const activeSession = localStorage.getItem('fav')
 	const favsJson = JSON.parse(activeSession)
-	console.log(favsJson)
 	dispatch({
 		type: LIST_FAVS,
 		payload: favsJson

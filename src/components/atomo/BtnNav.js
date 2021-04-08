@@ -10,7 +10,6 @@ function BtnNav(props) {
 	function activeBtn (patch) {
 		active ? setActive(false) : setActive(true)
 		history.push(patch)
-		console.log(history.location.pathname)
 	}
 
   return (
