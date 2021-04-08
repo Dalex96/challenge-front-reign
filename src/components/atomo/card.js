@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import moment from 'moment'
 import '../../dist/css/components/atomo/card.css'
 import corazon from '../../static/icons/corazon.svg'
 import corazonVacio from '../../static/icons/corazon_vacio.svg'
@@ -64,7 +65,7 @@ function Card(props) {
     			<div>
 		    		<div className="card-header">
               <img src={watch} className="iconTitleCard" width="15"/>
-		    			<span>{props.data.created_at} by {props.data.author}</span>
+		    			<span>{moment(props.data.created_at, "YYYYMMDD").fromNow()} by {props.data.author}</span>
 		    		</div>
 		    		<div className="card-content">
             {
