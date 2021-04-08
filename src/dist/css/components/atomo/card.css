@@ -1,0 +1,78 @@
+.card {
+	background: white;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	/*box-shadow: 0 1px 3px 0px black;*/
+	border: 1px solid #B9B9B9;
+	border-radius: 5px;
+}
+
+.card:hover {
+	opacity: 0.5;
+	cursor: pointer;
+	background: white;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	/*box-shadow: 0 1px 3px 0px black;*/
+	border: 1px solid #B9B9B9;
+	border-radius: 5px;
+}
+
+.linkCad {
+	text-decoration: none;
+	color: black;
+}
+
+.card-content p {
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 90%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:inline-block;
+}
+
+.card-header {
+	margin-top: 8px;
+	position: relative;
+	top: 10px;
+	font-size: 12px;
+	color: grey;
+	padding-left: 25px;
+	padding-right: 25px;	
+}
+.card-actions {
+	background: #EBEDEF;
+	padding-left: 15px;
+	padding-right: 35px;
+	height: 100fr;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-card {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.card-icon {
+	width: 10px;
+}
+
+.positionIconBtn {
+	margin-left: 40%;
+	margin-top: 20%;
+}
+
+.iconTitleCard {
+	margin: 0px;
+	margin-right: 6px;
+	position: relative;
+	top: 2px;
+}

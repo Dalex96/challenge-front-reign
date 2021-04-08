@@ -1,0 +1,2 @@
+export const LIST_NEWS_BY_TECNOLOGY = "LIST_NEWS_BY_TECNOLOGY";
+export const LIST_FAVS = "LIST_FAVS";
